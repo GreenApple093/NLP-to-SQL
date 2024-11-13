@@ -1,0 +1,19 @@
+# Ignore environment variable file
+.env
+
+# Ignore any SQLite database files
+*.db
+
+# Ignore directories related to Python virtual environments
+venv/
+env/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Streamlit cache and other temporary files
+.streamlit/
+.DS_Store
+*.log
+*.sqlite3
